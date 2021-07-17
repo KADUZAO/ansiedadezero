@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+footer {
+    background-color: #0000006e;
+}
+footer .container {
+    flex-direction: row;
+    padding: 2rem 0;
+    justify-content: space-around;
+}
+footer .container .text{
+    width: 50%;
+}
+footer .container .text .text__text{
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+}
+footer .container .logo .copy p {
+    font-size: 0.8rem;
+}
+footer img {
+    width: 8rem;
+}
+.logo {
+    width: 40%;
+}
+.termsandpolitc {
+    display: flex;
+    justify-content: space-evenly;
+}
+.politc, .term {
+    font-family: 'Open-sans', sans-serif;
+    color: #fff;
+    font-size: 0.8rem;
+}
+.noafilied {
+    width: 69%;
+}
+@media screen and (max-width: 480px) {
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .text{
+        width: 100%;
+    }
+    footer .container .logo {
+        margin-top: 2rem;
+        width: 100%;
+    }
+}

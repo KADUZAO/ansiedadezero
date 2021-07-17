@@ -1,0 +1,23 @@
+.card__blue {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.card__blue-span {
+    box-shadow: 0 0px 13px var(--color-blue);
+    padding: 0.3rem 0;
+}
+
+.card__blue-text {
+    padding: 0.5rem;
+}
+
+.card__white {
+    background-color: var(--color-white);
+    padding: 0.8rem;
+}
+
+.card__white-text {
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,51 @@
+@import url(./_reset.css);
+@import url(./_variable.css);
+
+body {
+    background-color: #000;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #0099ff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+
+#bg {
+    background-image: url(../../img/bg.svg);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 960px;
+    margin: auto;
+}
+
+@media screen and (max-width:1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and (max-width:720px) {
+    html {
+        font-size: 87.5%;
+    }
+    .imgtop img{
+        width: 100%;
+    }
+}
